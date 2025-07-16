@@ -12,9 +12,9 @@ clock = pygame.time.Clock()
 try: font = pygame.font.Font("PressStart2P.ttf", 32)
 except: font = pygame.font.SysFont("Courier", 32)
 
-bird_img = pygame.transform.scale(pygame.image.load("Doge.png").convert_alpha(), (40, 40))
-grass_img = pygame.transform.scale(pygame.image.load("grass.png").convert_alpha(), (GW, GH))
-pipe_img = pygame.image.load("pipe.png").convert_alpha()
+bird_img = pygame.transform.scale(pygame.image.load("./Images/Doge.png").convert_alpha(), (40, 40))
+grass_img = pygame.transform.scale(pygame.image.load("./Images/grass.png").convert_alpha(), (GW, GH))
+pipe_img = pygame.image.load("./Images/pipe.png").convert_alpha()
 
 class Bird:
     def __init__(s): s.x, s.y, s.vel, s.ang, s.dead = 100, H//2, 0, 0, False
