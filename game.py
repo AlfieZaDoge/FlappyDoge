@@ -14,7 +14,7 @@ try:
 except:
     font = pygame.font.SysFont("Courier", 32)
 
-bird_img = pygame.transform.scale(pygame.image.load("./Images/Doge.png").convert_alpha(), (102, 50))
+bird_img = pygame.transform.scale(pygame.image.load("./Images/Doge.png").convert_alpha(), (76.5, 40))
 grass_img = pygame.transform.scale(pygame.image.load("./Images/grass.png").convert_alpha(), (GW, GH))
 pipe_img = pygame.image.load("./Images/pipe.png").convert_alpha()
 
