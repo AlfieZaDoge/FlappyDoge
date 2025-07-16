@@ -22,5 +22,5 @@ class Bird:
         surf.blit(r, r.get_rect(center=(self.x, self.y)).topleft)
 
     def rect(self):
-        return pygame.Rect(self.x - 15, self.y - 15, 30, 30)
+        return pygame.Rect(self.x - 51, self.y - 25, 102, 50)
     
